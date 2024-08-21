@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .calcy {
+    width: 400px;
+    background-color: black;
+    color: white;
+  }
+  
+  .startscreen {
+    color: white;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: right;
+    padding: 20px 5px;
+  }
+  
+  .operators-button {
+    background-color: #d8d9db;
+    color: black;
+    height: 100px;
+    width: 24.5%;
+    border: none;
+    border-radius: 0;
+    font-size: 40px; 
+    cursor: pointer;
+  }
+  
+  .operators-button {
+    background-color: #ebebeb;
+  }
+  
+  .operators-button {
+    background-color: #bbbcbe;
+  }
+  
+  .clear {
+    width: 49.7%;
+  }
+  
+  .triple {
+    width: 74.8%;
+  }
+  
+  .operators-button:last-child {
+    background-color: #df974c;
+    color: white;
+  }
+  
+  .operators-button:hover {
+    background-color: #dfb07e;
+  }
+  
+  .operators-button:last-child:active {
+    background-color: #dd8d37;
+  }
+  
+  .operators-button-row {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+  }
+  
+  .operators-button-row:last-child {
+    padding-bottom: 0;
+  }
