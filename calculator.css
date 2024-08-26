@@ -34,12 +34,12 @@
   }
   
   .operators-button:last-child {
-    background-color: #df974c;
+    background-color: #961b05;
     color: white;
   }
   
   .operators-button:hover {
-    background-color: #dfb07e;
+    background-color: #9cf5af;
   }
   
   .operators-button-row {
