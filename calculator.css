@@ -1,12 +1,6 @@
 * {
     box-sizing: border-box;
   }
-  
-  body {
-    padding: 0;
-    margin: 0;
-  }
-  
   .calcy {
     width: 400px;
     background-color: black;
@@ -14,7 +8,6 @@
   }
   
   .startscreen {
-    color: white;
     font-size: 40px;
     font-family: "Courier New", Courier, monospace;
     text-align: right;
@@ -25,27 +18,19 @@
     background-color: #d8d9db;
     color: black;
     height: 100px;
-    width: 24.5%;
+    width: 24.0%;
     border: none;
     border-radius: 0;
     font-size: 40px; 
     cursor: pointer;
   }
   
-  .operators-button {
-    background-color: #ebebeb;
-  }
-  
-  .operators-button {
-    background-color: #bbbcbe;
-  }
-  
   .clear {
-    width: 49.7%;
+    width: 49.0%;
   }
   
   .triple {
-    width: 74.8%;
+    width: 74.0%;
   }
   
   .operators-button:last-child {
@@ -57,15 +42,11 @@
     background-color: #dfb07e;
   }
   
-  .operators-button:last-child:active {
-    background-color: #dd8d37;
-  }
-  
   .operators-button-row {
     display: flex;
     align-content: stretch;
-    justify-content: space-between;
-    margin-bottom: 0.5%;
+    justify-content: space-evenly;
+    margin-bottom: 0.4%;
   }
   
   .operators-button-row:last-child {
